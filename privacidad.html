@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Últimas Voluntades - Política de Privacidad</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1, h2 {
+            color: #1a5f4a;
+        }
+        h1 {
+            border-bottom: 2px solid #1a5f4a;
+            padding-bottom: 10px;
+        }
+        p {
+            margin: 15px 0;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .update-date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .highlight {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        a {
+            color: #1a5f4a;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidad de Últimas Voluntades</h1>
+    <p class="update-date">Última actualización: Enero 2026</p>
+
+    <p>El propietario de Últimas Voluntades se compromete a proteger la privacidad de los usuarios de nuestra aplicación. Esta política explica cómo tratamos la información en nuestra app.</p>
+
+    <div class="highlight">
+        <strong>Resumen:</strong> Últimas Voluntades está diseñada con la privacidad como principio fundamental. Tu contenido se almacena cifrado de extremo a extremo en tu propia cuenta de iCloud, y nosotros como desarrolladores no tenemos acceso a él.
+    </div>
+
+    <h2>1. Información que Procesamos</h2>
+    <p>La aplicación procesa los siguientes tipos de información:</p>
+    <ul>
+        <li><strong>Número de teléfono:</strong> Utilizado para verificar tu identidad mediante SMS. Este proceso se realiza a través de Twilio, un proveedor externo de servicios de mensajería.</li>
+        <li><strong>Contenido que creas:</strong> Textos, fotos, audios y documentos que decides guardar como tus últimas voluntades.</li>
+        <li><strong>Datos de contacto de destinatarios:</strong> Números de teléfono de las personas que designas como destinatarios de tus mensajes.</li>
+    </ul>
+
+    <h2>2. Dónde se Almacena tu Información</h2>
+    <p>Toda tu información se almacena en la infraestructura de Apple:</p>
+    <ul>
+        <li><strong>CloudKit (iCloud):</strong> Tu contenido se guarda cifrado en tu propia cuenta de iCloud, no en servidores nuestros.</li>
+        <li><strong>Keychain de iOS:</strong> Las claves de cifrado se guardan de forma segura en el Keychain de tu dispositivo, sincronizado a través de iCloud Keychain.</li>
+    </ul>
+
+    <div class="highlight">
+        <strong>Importante:</strong> Como desarrolladores, NO tenemos acceso a tu contenido. Todo está cifrado de extremo a extremo y almacenado en tu cuenta personal de Apple.
+    </div>
+
+    <h2>3. Cifrado de Extremo a Extremo</h2>
+    <p>Últimas Voluntades implementa cifrado de extremo a extremo (E2E) utilizando:</p>
+    <ul>
+        <li>Intercambio de claves X25519</li>
+        <li>Cifrado AES-GCM para el contenido</li>
+    </ul>
+    <p>Esto significa que solo tú y los destinatarios que autorices pueden acceder a tu contenido. Ni Apple ni nosotros podemos descifrar tu información.</p>
+
+    <h2>4. Servicios de Terceros</h2>
+    <p>Utilizamos los siguientes servicios de terceros:</p>
+    <ul>
+        <li><strong>Apple CloudKit:</strong> Para almacenamiento seguro en iCloud.</li>
+        <li><strong>Apple Push Notifications (APNs):</strong> Para notificarte cuando alguien solicita acceso a tus voluntades.</li>
+        <li><strong>Twilio:</strong> Exclusivamente para enviar códigos SMS de verificación de teléfono. Twilio no recibe ningún otro dato personal.</li>
+    </ul>
+
+    <h2>5. Datos que NO Recopilamos</h2>
+    <p>Últimas Voluntades NO recopila:</p>
+    <ul>
+        <li>Datos de analíticas o uso</li>
+        <li>Información de ubicación</li>
+        <li>Identificadores publicitarios</li>
+        <li>Datos para publicidad o marketing</li>
+        <li>Información financiera o de pago (los pagos se gestionan directamente por Apple)</li>
+    </ul>
+
+    <h2>6. Permisos de la Aplicación</h2>
+    <p>La app puede solicitar los siguientes permisos:</p>
+    <ul>
+        <li><strong>Notificaciones:</strong> Para avisarte si alguien solicita acceso.</li>
+        <li><strong>Contactos:</strong> Para mostrar nombres en lugar de números de teléfono (opcional).</li>
+        <li><strong>Cámara/Fotos:</strong> Para adjuntar imágenes a tus mensajes.</li>
+        <li><strong>Micrófono:</strong> Para grabar mensajes de voz.</li>
+    </ul>
+    <p>Todos estos permisos son opcionales y puedes usar la app sin concederlos todos.</p>
+
+    <h2>7. Retención y Eliminación de Datos</h2>
+    <p>Tu información permanece en tu cuenta de iCloud mientras mantengas la app instalada y tu cuenta activa. Puedes eliminar todo tu contenido en cualquier momento desde la app o eliminando los datos de iCloud directamente desde los ajustes de tu dispositivo.</p>
+
+    <h2>8. Seguridad</h2>
+    <p>Implementamos las siguientes medidas de seguridad:</p>
+    <ul>
+        <li>Cifrado de extremo a extremo para todo el contenido sensible</li>
+        <li>Verificación de teléfono obligatoria</li>
+        <li>Almacenamiento en infraestructura segura de Apple</li>
+        <li>Claves privadas protegidas por Keychain de iOS</li>
+        <li>Opción de protección biométrica (Face ID/Touch ID)</li>
+    </ul>
+
+    <h2>9. Tus Derechos</h2>
+    <p>Tienes derecho a:</p>
+    <ul>
+        <li>Acceder a toda tu información desde la app</li>
+        <li>Modificar o eliminar tu contenido en cualquier momento</li>
+        <li>Exportar tus datos</li>
+        <li>Eliminar tu cuenta y todos los datos asociados</li>
+    </ul>
+
+    <h2>10. Menores de Edad</h2>
+    <p>Últimas Voluntades no está dirigida a menores de 18 años. No recopilamos conscientemente información de menores.</p>
+
+    <h2>11. Cambios en esta Política</h2>
+    <p>Podemos actualizar esta política ocasionalmente. Te notificaremos de cualquier cambio significativo a través de la app o por otros medios antes de que los cambios entren en vigor.</p>
+
+    <h2>12. Contacto</h2>
+    <p>Si tienes preguntas sobre esta política de privacidad o sobre cómo tratamos tu información, puedes contactarnos en:</p>
+    <p><a href="mailto:david@madeinusa.dev">david@madeinusa.dev</a></p>
+
+    <div class="footer">
+        <p>© 2026 Últimas Voluntades</p>
+        <p><a href="privacy.html">English version</a></p>
+    </div>
+</body>
+</html>
