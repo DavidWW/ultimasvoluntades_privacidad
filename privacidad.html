@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Últimas Voluntades - Política de Privacidad</title>
+    <title>Política de Privacidad - Últimas Voluntades</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -53,108 +53,108 @@
             color: #666;
             font-size: 0.9em;
         }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #0066cc;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidad de Últimas Voluntades</h1>
+    <a href="index.html" class="back-link">← Volver</a>
+    
+    <h1>Política de Privacidad</h1>
     <p class="update-date">Última actualización: Enero 2026</p>
 
-    <p>El propietario de Últimas Voluntades se compromete a proteger la privacidad de los usuarios de nuestra aplicación. Esta política explica cómo tratamos la información en nuestra app.</p>
-
     <div class="highlight">
-        <strong>Resumen:</strong> Últimas Voluntades está diseñada con la privacidad como principio fundamental. Tu contenido se almacena cifrado de extremo a extremo en tu propia cuenta de iCloud, y nosotros como desarrolladores no tenemos acceso a él.
+        <strong>🔒 Resumen:</strong> Tus datos se almacenan cifrados de extremo a extremo en tu propia cuenta de iCloud. No tenemos servidores propios y no podemos acceder a tu contenido.
     </div>
 
-    <h2>1. Información que Procesamos</h2>
-    <p>La aplicación procesa los siguientes tipos de información:</p>
+    <h2>1. Información que Recopilamos</h2>
+    <p>Últimas Voluntades recopila y almacena la siguiente información, siempre en tu cuenta personal de iCloud:</p>
     <ul>
-        <li><strong>Número de teléfono:</strong> Utilizado para verificar tu identidad mediante SMS. Este proceso se realiza a través de Twilio, un proveedor externo de servicios de mensajería.</li>
-        <li><strong>Contenido que creas:</strong> Textos, fotos, audios y documentos que decides guardar como tus últimas voluntades.</li>
-        <li><strong>Datos de contacto de destinatarios:</strong> Números de teléfono de las personas que designas como destinatarios de tus mensajes.</li>
+        <li><strong>Información de perfil:</strong> Nombre y número de teléfono (para verificación de identidad)</li>
+        <li><strong>Contenido creado:</strong> Textos, fotos, audios y documentos que decidas guardar</li>
+        <li><strong>Destinatarios:</strong> Números de teléfono de las personas que designes como receptores</li>
+        <li><strong>Preferencias:</strong> Disposición del cuerpo, tipo de ceremonia, información de contactos profesionales</li>
     </ul>
 
-    <h2>2. Dónde se Almacena tu Información</h2>
-    <p>Toda tu información se almacena en la infraestructura de Apple:</p>
+    <h2>2. Cómo Almacenamos tu Información</h2>
+    <p>Toda tu información se almacena exclusivamente en tu cuenta personal de iCloud mediante CloudKit de Apple. Esto significa que:</p>
     <ul>
-        <li><strong>CloudKit (iCloud):</strong> Tu contenido se guarda cifrado en tu propia cuenta de iCloud, no en servidores nuestros.</li>
-        <li><strong>Keychain de iOS:</strong> Las claves de cifrado se guardan de forma segura en el Keychain de tu dispositivo, sincronizado a través de iCloud Keychain.</li>
+        <li>No tenemos servidores propios</li>
+        <li>No podemos acceder a tu contenido</li>
+        <li>Tus datos están protegidos por la seguridad de Apple</li>
+        <li>El contenido personal está cifrado de extremo a extremo (E2E)</li>
     </ul>
-
-    <div class="highlight">
-        <strong>Importante:</strong> Como desarrolladores, NO tenemos acceso a tu contenido. Todo está cifrado de extremo a extremo y almacenado en tu cuenta personal de Apple.
-    </div>
 
     <h2>3. Cifrado de Extremo a Extremo</h2>
-    <p>Últimas Voluntades implementa cifrado de extremo a extremo (E2E) utilizando:</p>
+    <p>Los archivos personales (fotos, audios, documentos) se cifran usando:</p>
     <ul>
-        <li>Intercambio de claves X25519</li>
-        <li>Cifrado AES-GCM para el contenido</li>
+        <li><strong>X25519:</strong> Para intercambio seguro de claves</li>
+        <li><strong>AES-GCM:</strong> Para cifrado del contenido</li>
     </ul>
-    <p>Esto significa que solo tú y los destinatarios que autorices pueden acceder a tu contenido. Ni Apple ni nosotros podemos descifrar tu información.</p>
+    <p>Esto garantiza que solo tú y tus destinatarios designados pueden acceder al contenido.</p>
 
-    <h2>4. Servicios de Terceros</h2>
-    <p>Utilizamos los siguientes servicios de terceros:</p>
+    <h2>4. Verificación de Teléfono</h2>
+    <p>Utilizamos Twilio para enviar códigos de verificación SMS. El número de teléfono se usa únicamente para:</p>
     <ul>
-        <li><strong>Apple CloudKit:</strong> Para almacenamiento seguro en iCloud.</li>
-        <li><strong>Apple Push Notifications (APNs):</strong> Para notificarte cuando alguien solicita acceso a tus voluntades.</li>
-        <li><strong>Twilio:</strong> Exclusivamente para enviar códigos SMS de verificación de teléfono. Twilio no recibe ningún otro dato personal.</li>
+        <li>Verificar tu identidad</li>
+        <li>Permitir que tus destinatarios te identifiquen</li>
     </ul>
+    <p>No compartimos tu número con terceros para fines de marketing.</p>
 
-    <h2>5. Datos que NO Recopilamos</h2>
-    <p>Últimas Voluntades NO recopila:</p>
+    <h2>5. Datos Analíticos Anónimos</h2>
+    <p>Recopilamos estadísticas anónimas y agregadas para mejorar la app:</p>
     <ul>
-        <li>Datos de analíticas o uso</li>
-        <li>Información de ubicación</li>
-        <li>Identificadores publicitarios</li>
-        <li>Datos para publicidad o marketing</li>
-        <li>Información financiera o de pago (los pagos se gestionan directamente por Apple)</li>
+        <li>País (solo el código, no ubicación exacta)</li>
+        <li>Versión de la app y sistema operativo</li>
+        <li>Uso general de funciones (sin contenido personal)</li>
     </ul>
+    <p>Estos datos no pueden identificarte personalmente.</p>
 
-    <h2>6. Permisos de la Aplicación</h2>
-    <p>La app puede solicitar los siguientes permisos:</p>
+    <h2>6. Información Compartida con Destinatarios</h2>
+    <p>Cuando designas a alguien como destinatario:</p>
     <ul>
-        <li><strong>Notificaciones:</strong> Para avisarte si alguien solicita acceso.</li>
-        <li><strong>Contactos:</strong> Para mostrar nombres en lugar de números de teléfono (opcional).</li>
-        <li><strong>Cámara/Fotos:</strong> Para adjuntar imágenes a tus mensajes.</li>
-        <li><strong>Micrófono:</strong> Para grabar mensajes de voz.</li>
-    </ul>
-    <p>Todos estos permisos son opcionales y puedes usar la app sin concederlos todos.</p>
-
-    <h2>7. Retención y Eliminación de Datos</h2>
-    <p>Tu información permanece en tu cuenta de iCloud mientras mantengas la app instalada y tu cuenta activa. Puedes eliminar todo tu contenido en cualquier momento desde la app o eliminando los datos de iCloud directamente desde los ajustes de tu dispositivo.</p>
-
-    <h2>8. Seguridad</h2>
-    <p>Implementamos las siguientes medidas de seguridad:</p>
-    <ul>
-        <li>Cifrado de extremo a extremo para todo el contenido sensible</li>
-        <li>Verificación de teléfono obligatoria</li>
-        <li>Almacenamiento en infraestructura segura de Apple</li>
-        <li>Claves privadas protegidas por Keychain de iOS</li>
-        <li>Opción de protección biométrica (Face ID/Touch ID)</li>
+        <li><strong>Información básica:</strong> Puede ver tu disposición, ceremonia y contactos profesionales inmediatamente (si lo configuras así)</li>
+        <li><strong>Archivos personales:</strong> Debe solicitar acceso y esperar el plazo que configures</li>
     </ul>
 
-    <h2>9. Tus Derechos</h2>
+    <h2>7. Tus Derechos</h2>
     <p>Tienes derecho a:</p>
     <ul>
-        <li>Acceder a toda tu información desde la app</li>
-        <li>Modificar o eliminar tu contenido en cualquier momento</li>
-        <li>Exportar tus datos</li>
-        <li>Eliminar tu cuenta y todos los datos asociados</li>
+        <li><strong>Acceder:</strong> Ver toda tu información en la app</li>
+        <li><strong>Modificar:</strong> Editar o actualizar cualquier dato</li>
+        <li><strong>Eliminar:</strong> Borrar tu cuenta y todos los datos asociados</li>
+        <li><strong>Portabilidad:</strong> Tus datos están en tu iCloud, bajo tu control</li>
+    </ul>
+
+    <h2>8. Retención de Datos</h2>
+    <p>Tus datos permanecen en tu iCloud mientras mantengas la app instalada y tu cuenta activa. Si eliminas la app o tu cuenta de iCloud, los datos se eliminan según las políticas de Apple.</p>
+
+    <h2>9. Seguridad</h2>
+    <p>Implementamos múltiples capas de seguridad:</p>
+    <ul>
+        <li>Cifrado E2E para contenido personal</li>
+        <li>Verificación de teléfono obligatoria</li>
+        <li>Almacenamiento en infraestructura de Apple</li>
+        <li>Sin servidores intermedios</li>
     </ul>
 
     <h2>10. Menores de Edad</h2>
-    <p>Últimas Voluntades no está dirigida a menores de 18 años. No recopilamos conscientemente información de menores.</p>
+    <p>Esta aplicación está diseñada para usuarios mayores de 18 años. No recopilamos intencionalmente información de menores.</p>
 
     <h2>11. Cambios en esta Política</h2>
-    <p>Podemos actualizar esta política ocasionalmente. Te notificaremos de cualquier cambio significativo a través de la app o por otros medios antes de que los cambios entren en vigor.</p>
+    <p>Podemos actualizar esta política ocasionalmente. Te notificaremos de cambios significativos a través de la app.</p>
 
     <h2>12. Contacto</h2>
-    <p>Si tienes preguntas sobre esta política de privacidad o sobre cómo tratamos tu información, puedes contactarnos en:</p>
-    <p><a href="mailto:david@madeinusa.dev">david@madeinusa.dev</a></p>
+    <p>Para cualquier pregunta sobre privacidad:</p>
+    <p><a href="mailto:David.margalef@me.com">David.margalef@me.com</a></p>
 
     <div class="footer">
         <p>© 2026 Últimas Voluntades</p>
-        <p><a href="privacy.html">English version</a></p>
+        <p><a href="privacy.html">English version</a> · <a href="terminos.html">Términos de Uso</a></p>
     </div>
 </body>
 </html>
